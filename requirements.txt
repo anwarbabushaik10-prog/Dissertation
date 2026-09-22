@@ -1,0 +1,15 @@
+grad-cam==1.5.5
+kaggle==2.2.4
+lime==0.2.0.1
+matplotlib==3.11.1
+numpy==2.4.6
+pandas==3.0.5
+pillow==12.3.0
+scikit-image==0.26.0
+scikit-learn==1.9.0
+scipy==1.17.1
+seaborn==0.13.2
+timm==1.0.28
+torch==2.13.0
+torchvision==0.28.0
+tqdm==4.70.0

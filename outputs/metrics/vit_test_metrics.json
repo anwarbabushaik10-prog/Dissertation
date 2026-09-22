@@ -1,0 +1,201 @@
+{
+  "model": "vit",
+  "test_accuracy": 0.9907911259941398,
+  "precision_macro": 0.9905965653658386,
+  "recall_macro": 0.9885372286928957,
+  "f1_macro": 0.9894730411246728,
+  "precision_weighted": 0.9909432572380255,
+  "recall_weighted": 0.9907911259941398,
+  "f1_weighted": 0.9907830411444296,
+  "confidence_intervals_95": {
+    "accuracy": {
+      "lower": 0.9866052741732942,
+      "upper": 0.9945583926329008,
+      "n_resamples": 1000
+    },
+    "macro_f1": {
+      "lower": 0.9840532773955982,
+      "upper": 0.9941264189285755,
+      "n_resamples": 1000
+    }
+  },
+  "calibration": {
+    "mean_confidence": 0.8779168128967285,
+    "expected_calibration_error_10_bins": 0.11287424605777943,
+    "multiclass_brier_score": 0.035027433330341015,
+    "negative_log_likelihood": 0.14824624359607697
+  },
+  "robustness": {
+    "conditions": [
+      {
+        "condition": "clean",
+        "accuracy": 0.9907911259941398,
+        "macro_f1": 0.9894730411246728,
+        "accuracy_drop": 0.0,
+        "macro_f1_drop": 0.0
+      },
+      {
+        "condition": "brightness_low",
+        "accuracy": 0.9866052741732942,
+        "macro_f1": 0.9834007023965793,
+        "accuracy_drop": 0.004185851820845521,
+        "macro_f1_drop": 0.00607233872809354
+      },
+      {
+        "condition": "brightness_high",
+        "accuracy": 0.9845123482628715,
+        "macro_f1": 0.9814485366187178,
+        "accuracy_drop": 0.006278777731268281,
+        "macro_f1_drop": 0.008024504505955043
+      },
+      {
+        "condition": "contrast_low",
+        "accuracy": 0.9907911259941398,
+        "macro_f1": 0.987923433654714,
+        "accuracy_drop": 0.0,
+        "macro_f1_drop": 0.0015496074699588025
+      },
+      {
+        "condition": "mild_blur",
+        "accuracy": 0.9723733779824194,
+        "macro_f1": 0.9601502721117235,
+        "accuracy_drop": 0.01841774801172036,
+        "macro_f1_drop": 0.02932276901294928
+      }
+    ],
+    "worst_accuracy": 0.9723733779824194,
+    "largest_accuracy_drop": 0.01841774801172036
+  },
+  "n_test_samples": 2389,
+  "per_class_report": {
+    "Apple___Apple_scab": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 92.0
+    },
+    "Apple___Black_rot": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 93.0
+    },
+    "Apple___Cedar_apple_rust": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 42.0
+    },
+    "Apple___healthy": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 90.0
+    },
+    "Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot": {
+      "precision": 0.9605263157894737,
+      "recall": 0.9733333333333334,
+      "f1-score": 0.9668874172185431,
+      "support": 75.0
+    },
+    "Corn_(maize)___Common_rust_": {
+      "precision": 0.994413407821229,
+      "recall": 1.0,
+      "f1-score": 0.9971988795518207,
+      "support": 178.0
+    },
+    "Corn_(maize)___Northern_Leaf_Blight": {
+      "precision": 0.9861111111111112,
+      "recall": 0.9726027397260274,
+      "f1-score": 0.9793103448275862,
+      "support": 146.0
+    },
+    "Corn_(maize)___healthy": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 175.0
+    },
+    "Grape___Black_rot": {
+      "precision": 0.9833333333333333,
+      "recall": 1.0,
+      "f1-score": 0.9915966386554622,
+      "support": 177.0
+    },
+    "Grape___Esca_(Black_Measles)": {
+      "precision": 1.0,
+      "recall": 0.95,
+      "f1-score": 0.9743589743589743,
+      "support": 60.0
+    },
+    "Grape___Leaf_blight_(Isariopsis_Leaf_Spot)": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 162.0
+    },
+    "Grape___healthy": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 64.0
+    },
+    "Potato___Early_blight": {
+      "precision": 0.9931506849315068,
+      "recall": 1.0,
+      "f1-score": 0.9965635738831615,
+      "support": 145.0
+    },
+    "Potato___Late_blight": {
+      "precision": 0.9615384615384616,
+      "recall": 1.0,
+      "f1-score": 0.9803921568627451,
+      "support": 150.0
+    },
+    "Tomato___Bacterial_spot": {
+      "precision": 1.0,
+      "recall": 0.9798994974874372,
+      "f1-score": 0.9898477157360406,
+      "support": 199.0
+    },
+    "Tomato___Late_blight": {
+      "precision": 1.0,
+      "recall": 0.9777777777777777,
+      "f1-score": 0.9887640449438202,
+      "support": 270.0
+    },
+    "Tomato___Septoria_leaf_spot": {
+      "precision": 0.9655172413793104,
+      "recall": 0.9333333333333333,
+      "f1-score": 0.9491525423728814,
+      "support": 30.0
+    },
+    "Tomato___Target_Spot": {
+      "precision": 0.9767441860465116,
+      "recall": 0.995260663507109,
+      "f1-score": 0.9859154929577465,
+      "support": 211.0
+    },
+    "Tomato___Tomato_mosaic_virus": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 30.0
+    },
+    "accuracy": 0.9907911259941398,
+    "macro avg": {
+      "precision": 0.9905965653658386,
+      "recall": 0.9885372286928957,
+      "f1-score": 0.9894730411246728,
+      "support": 2389.0
+    },
+    "weighted avg": {
+      "precision": 0.9909432572380255,
+      "recall": 0.9907911259941398,
+      "f1-score": 0.9907830411444296,
+      "support": 2389.0
+    }
+  },
+  "checkpoint_epoch": 6,
+  "checkpoint_val_f1": 0.9856585173741987
+}

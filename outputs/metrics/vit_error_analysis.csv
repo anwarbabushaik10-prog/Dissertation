@@ -1,0 +1,20 @@
+class_name,support,false_positives,false_negatives
+Apple___Apple_scab,92,0,0
+Apple___Black_rot,93,0,0
+Apple___Cedar_apple_rust,42,0,0
+Apple___healthy,90,0,0
+Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot,75,3,2
+Corn_(maize)___Common_rust_,178,1,0
+Corn_(maize)___Northern_Leaf_Blight,146,2,4
+Corn_(maize)___healthy,175,0,0
+Grape___Black_rot,177,3,0
+Grape___Esca_(Black_Measles),60,0,3
+Grape___Leaf_blight_(Isariopsis_Leaf_Spot),162,0,0
+Grape___healthy,64,0,0
+Potato___Early_blight,145,1,0
+Potato___Late_blight,150,6,0
+Tomato___Bacterial_spot,199,0,4
+Tomato___Late_blight,270,0,6
+Tomato___Septoria_leaf_spot,30,1,2
+Tomato___Target_Spot,211,5,1
+Tomato___Tomato_mosaic_virus,30,0,0

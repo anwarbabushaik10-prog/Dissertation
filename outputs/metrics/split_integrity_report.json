@@ -1,0 +1,15 @@
+{
+  "strategy": "class-stratified source-group split (70/15/15)",
+  "source_group_rule": "normalised filename suffix after ___ plus exact SHA-256 linkage",
+  "n_images": 15915,
+  "n_source_groups": 15163,
+  "offline_variant_groups": 583,
+  "source_groups_spanning_splits": 0,
+  "exact_hashes_spanning_splits": 0,
+  "split_sizes": {
+    "train": 11139,
+    "val": 2387,
+    "test": 2389
+  },
+  "checks_passed": true
+}

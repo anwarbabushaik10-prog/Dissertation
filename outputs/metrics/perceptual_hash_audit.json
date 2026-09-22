@@ -1,0 +1,8 @@
+{
+  "method": "64-bit DCT perceptual hash, canonicalised over rotations and horizontal flips",
+  "n_images": 15915,
+  "perceptual_hash_groups": 15903,
+  "groups_spanning_splits": 0,
+  "images_in_spanning_groups": 0,
+  "checks_passed": true
+}

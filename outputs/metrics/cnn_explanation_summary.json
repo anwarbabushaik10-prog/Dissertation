@@ -1,0 +1,10 @@
+{
+  "model": "cnn",
+  "n_samples": 38,
+  "n_with_mask": 24,
+  "gradcam_mean_foreground_fraction": 0.44165794427196187,
+  "lime_mean_foreground_fraction": 0.5349963642656803,
+  "gradcam_pct_misleading": 75.0,
+  "lime_pct_misleading": 50.0,
+  "background_focus_threshold": 0.5
+}

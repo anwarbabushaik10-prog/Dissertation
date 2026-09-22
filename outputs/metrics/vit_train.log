@@ -1,0 +1,3 @@
+Training 'vit' on device=mps
+[vit] epoch 01/12 (warmup(head-only), 65.7s) train_loss=1.7262 train_f1=0.5614 | val_loss=1.2970 val_acc=0.7394 val_f1=0.7093
+[vit] epoch 02/12 (warmup(head-only), 66.0s) train_loss=1.2936 train_f1=0.7365 | val_loss=1.1702 val_acc=0.8069 val_f1=0.7738

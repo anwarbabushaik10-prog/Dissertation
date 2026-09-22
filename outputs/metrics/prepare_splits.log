@@ -1,0 +1,30 @@
+Scanning /Users/harshnipriyanka/Desktop/anwar 9.34.01 AM/data/raw/PlantVillage Dataset (Labeled)/Color Images ...
+Found 15915 images across 19 classes.
+Split integrity: {'strategy': 'class-stratified source-group split (70/15/15)', 'source_group_rule': 'normalised filename suffix after ___ plus exact SHA-256 linkage', 'n_images': 15915, 'n_source_groups': 15163, 'offline_variant_groups': 583, 'source_groups_spanning_splits': 0, 'exact_hashes_spanning_splits': 0, 'split_sizes': {'train': 11139, 'val': 2387, 'test': 2389}, 'checks_passed': True}
+Split sizes: {'train': 11139, 'val': 2387, 'test': 2389}
+
+Class imbalance report:
+                                                     total  train  val  test
+class_name                                                                 
+Tomato___Late_blight                                 1799   1259  270   270
+Tomato___Target_Spot                                 1402    981  210   211
+Tomato___Bacterial_spot                              1322    925  198   199
+Corn_(maize)___Common_rust_                          1186    830  178   178
+Grape___Black_rot                                    1179    825  177   177
+Corn_(maize)___healthy                               1162    813  174   175
+Grape___Leaf_blight_(Isariopsis_Leaf_Spot)           1076    753  161   162
+Potato___Late_blight                                 1000    700  150   150
+Corn_(maize)___Northern_Leaf_Blight                   978    686  146   146
+Potato___Early_blight                                 962    673  144   145
+Apple___Black_rot                                     621    435   93    93
+Apple___Apple_scab                                    618    433   93    92
+Apple___healthy                                       600    420   90    90
+Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot    513    359   79    75
+Grape___healthy                                       423    296   63    64
+Grape___Esca_(Black_Measles)                          399    279   60    60
+Apple___Cedar_apple_rust                              275    192   41    42
+Tomato___Septoria_leaf_spot                           200    140   30    30
+Tomato___Tomato_mosaic_virus                          200    140   30    30
+
+Saved manifests to /Users/harshnipriyanka/Desktop/anwar 9.34.01 AM/data/splits
+Saved figure to /Users/harshnipriyanka/Desktop/anwar 9.34.01 AM/outputs/figures/class_distribution.png
